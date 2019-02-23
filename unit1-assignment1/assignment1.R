@@ -64,4 +64,4 @@ str(Top5)
 
 # On which day of the week do the most motor vehicle thefts at gas stations happen?
 
-table(Top5$Weekday)
+table(Top5$Weekday, Top5$LocationDescription)
